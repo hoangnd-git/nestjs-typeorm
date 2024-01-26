@@ -9,7 +9,7 @@ export class ApiError {
     this.meta = {
       errorCode: errorCode || DEFAULT_ERROR_CODE,
       errorMessage: errorMessage || DEFAULT_ERROR_MESSAGE,
-      extraInfo,
+      extraInfo: extraInfo || null,
       code: -1,
     };
   }

@@ -11,3 +11,4 @@ Source base for NestJS framework(v10).
 - Microservice: Kafka(Consumer and producer)
 - Guards
 - Logging interceptor
+- Unittest

@@ -1,7 +1,7 @@
 import { ApiError } from '../../responses/api-error';
 import { IUploadFile, UploadFileResponse } from './upload.interface';
-var ObsClient = require('esdk-obs-nodejs');
-import { Readable} from 'stream';
+const ObsClient = require('esdk-obs-nodejs');
+import { Readable } from 'stream';
 
 export class UploadHuawei implements IUploadFile {
   clientProxy!: any;
